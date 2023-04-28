@@ -28,12 +28,12 @@ const members = [
     {
     nomeECognome : 'wayne Barnett',
     Ruolo : 'Founder & CEO',
-    foto : 'wayne-barnett-founder-ceo.jpg'
+    foto : 'wayne-barnett-founder-ceo.jpg',
     }
     {
     nomeECognome : 'Angela Caroll',
     Ruolo : 'Chief Editor',
-    foto : 'angela-caroll-chief-editor.jpg'
+    foto : 'angela-caroll-chief-editor.jpg',
     }
     {
     nomeECognome : 'Walter Gordon',
@@ -49,10 +49,14 @@ const members = [
     nomeECognome : 'Scott Estrada',
     Ruolo : 'Developer',
     foto : 'scott-estrada-developer.jpg'
-    }
+    }  
     {
     nomeECognome : 'Barbara Ramos',
     Ruolo : 'Graphic Designer',
     foto : 'barbara-ramos-graphic-designer.jpg'
     }
 ]
+
+for(i = 0 ; i < members.length ; i++){
+    console.log(members)
+}
