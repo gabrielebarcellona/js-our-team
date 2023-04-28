@@ -24,7 +24,7 @@ Scott Estrada	Developer	scott-estrada-developer.jpg
 Barbara Ramos	Graphic Designer	barbara-ramos-graphic-designer.jpg*/
 
     const EleList = document.querySelector('.output')
-     
+    const EleImage = document.querySelectorAll('.image')
 
 
 const members = [
@@ -64,4 +64,5 @@ const members = [
     for (i = 0 ; i < members.length ; i ++){
         let member = members[i];
     EleList.innerHTML += `<li>${member.nomeECognome} ${member.ruolo}${ member.foto}</li>`
+    EleImage.innerHTML += `<img src="wayne-barnett-founder-ceo.jpg" alt=""></img>`
     }
