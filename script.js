@@ -24,45 +24,45 @@ Scott Estrada	Developer	scott-estrada-developer.jpg
 Barbara Ramos	Graphic Designer	barbara-ramos-graphic-designer.jpg*/
 
     const EleList = document.querySelector('.output')
-    const EleImage = document.querySelectorAll('.image')
+     
 
 
 const members = [
     {
     nomeECognome : 'wayne Barnett',
-    Ruolo : 'Founder & CEO',
-    foto : 'wayne-barnett-founder-ceo.jpg',
+    ruolo : 'Founder & CEO',
+    foto : 'img/wayne-barnett-founder-ceo.jpg',
     },
     {
     nomeECognome : 'Angela Caroll',
-    Ruolo : 'Chief Editor',
-    foto : 'angela-caroll-chief-editor.jpg',
+    ruolo : 'Chief Editor',
+    foto : 'img/angela-caroll-chief-editor.jpg',
     },
     {
     nomeECognome : 'Walter Gordon',
-    Ruolo : 'Office Manager',
-    foto : 'walter-gordon-office-manager.jpg'
+    ruolo : 'Office Manager',
+    foto : 'img/walter-gordon-office-manager.jpg'
     },
     {
     nomeECognome : 'Angela Lopez',
-    Ruolo : 'Social Media Manager',
-    foto : 'angela-lopez-social-media-manager.jpg'
+    ruolo : 'Social Media Manager',
+    foto : 'img/angela-lopez-social-media-manager.jpg'
     },
     {
     nomeECognome : 'Scott Estrada',
-    Ruolo : 'Developer',
-    foto : 'scott-estrada-developer.jpg'
+    ruolo : 'Developer',
+    foto : 'img/scott-estrada-developer.jpg'
     } ,
     {
     nomeECognome : 'Barbara Ramos',
-    Ruolo : 'Graphic Designer',
-    foto : 'barbara-ramos-graphic-designer.jpg'
+    ruolo : 'Graphic Designer',
+    foto : 'img/barbara-ramos-graphic-designer.jpg'
     }
 ]
     console.log(members)
 
     for (i = 0 ; i < members.length ; i ++){
         let member = members[i];
-    EleList.innerHTML += `<li>${member.nomeECognome} ${member.ruolo}${ member.foto}</li>`
-    EleImage.innerHTML += `<img src="wayne-barnett-founder-ceo.jpg" alt=""></img>`
+    EleList.innerHTML += `<li>${member.nomeECognome} ${member.ruolo} ${member.foto}</li>`;
     }
+    
