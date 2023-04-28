@@ -22,3 +22,37 @@ Walter Gordon	Office Manager	walter-gordon-office-manager.jpg
 Angela Lopez	Social Media Manager	angela-lopez-social-media-manager.jpg
 Scott Estrada	Developer	scott-estrada-developer.jpg
 Barbara Ramos	Graphic Designer	barbara-ramos-graphic-designer.jpg*/
+
+
+const members = [
+    {
+    nomeECognome : 'wayne Barnett',
+    Ruolo : 'Founder & CEO',
+    foto : 'wayne-barnett-founder-ceo.jpg'
+    }
+    {
+    nomeECognome : 'Angela Caroll',
+    Ruolo : 'Chief Editor',
+    foto : 'angela-caroll-chief-editor.jpg'
+    }
+    {
+    nomeECognome : 'Walter Gordon',
+    Ruolo : 'Office Manager',
+    foto : 'walter-gordon-office-manager.jpg'
+    }
+    {
+    nomeECognome : 'Angela Lopez',
+    Ruolo : 'Social Media Manager',
+    foto : 'angela-lopez-social-media-manager.jpg'
+    }
+    {
+    nomeECognome : 'Scott Estrada',
+    Ruolo : 'Developer',
+    foto : 'scott-estrada-developer.jpg'
+    }
+    {
+    nomeECognome : 'Barbara Ramos',
+    Ruolo : 'Graphic Designer',
+    foto : 'barbara-ramos-graphic-designer.jpg'
+    }
+]
