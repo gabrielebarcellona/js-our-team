@@ -31,32 +31,32 @@ const members = [
     {
     nomeECognome : 'wayne Barnett',
     ruolo : 'Founder & CEO',
-    foto : 'img/wayne-barnett-founder-ceo.jpg',
+    foto : '<img src="img/wayne-barnett-founder-ceo.jpg"',
     },
     {
     nomeECognome : 'Angela Caroll',
     ruolo : 'Chief Editor',
-    foto : 'img/angela-caroll-chief-editor.jpg',
+    foto : '<img src="img/angela-caroll-chief-editor.jpg"',
     },
     {
     nomeECognome : 'Walter Gordon',
     ruolo : 'Office Manager',
-    foto : 'img/walter-gordon-office-manager.jpg'
+    foto : '<img src="img/walter-gordon-office-manager.jpg"'
     },
     {
     nomeECognome : 'Angela Lopez',
     ruolo : 'Social Media Manager',
-    foto : 'img/angela-lopez-social-media-manager.jpg'
+    foto : '<img src="img/angela-lopez-social-media-manager.jpg"'
     },
     {
     nomeECognome : 'Scott Estrada',
     ruolo : 'Developer',
-    foto : 'img/scott-estrada-developer.jpg'
+    foto : '<img src="img/scott-estrada-developer.jpg"'
     } ,
     {
     nomeECognome : 'Barbara Ramos',
     ruolo : 'Graphic Designer',
-    foto : 'img/barbara-ramos-graphic-designer.jpg'
+    foto : '<img src="img/barbara-ramos-graphic-designer.jpg"'
     }
 ]
     console.log(members)

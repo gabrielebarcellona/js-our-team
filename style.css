@@ -1,0 +1,13 @@
+body{
+    background-color: aqua;
+}
+.output{
+    max-width: 1000px;
+    margin: auto;
+    background-color:rgb(50, 176, 187)
+}
+
+li{
+    margin-bottom: 50px;
+    color: white;
+}
